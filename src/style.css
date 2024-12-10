@@ -1,0 +1,144 @@
+.container{
+    font-family: Arial;
+    font-size: 130%;
+    margin-left: 20%;
+    height: 72vh;
+    width:  60%;
+    background-color: rgb(211, 211, 211);
+    border-radius: 1%;
+    border: solid;
+}
+body{
+    background-image: url("../assets/bckg.jpg");
+   
+}
+
+
+
+.page_list{
+    float: left;
+    z-index: -2;
+    width: 10%;
+    height: 100%;
+    background-color: rgb(61, 61, 61);
+    display: block;
+}
+.page_list ul{
+    margin-top: 85%;   
+    padding-left: 0%;
+    list-style-type: none;
+    display: block;
+    width: 100%;
+}
+.page_list li a{
+    display: block;
+    color: rgb(202, 202, 202);
+    background-color: rgb(105, 105, 105);
+    text-decoration: none;
+    text-align: center;
+    border-bottom: dotted;
+    border-color: rgb(34, 34, 34);  
+}
+.page_list a:hover{
+    color: white;
+    background-color: rgb(170, 170, 170);
+}
+#maintext{
+    color:rgb(29, 29, 29);
+    align-self: center;
+    margin: 0%;
+    text-align: center;
+    padding: 0% 13%;
+    font-size: 110%;
+}
+#maintext a{
+    color:rgb(29, 29, 29);
+    text-decoration: underline;
+}
+#maintext a:hover{
+    color: white;
+    background-color: rgb(90, 90, 90);
+}
+#maintext img{
+    margin-top: 5%;
+    float: left;
+}
+#maintext hr{
+    margin-left: -2%;
+    height: 0.2vh;
+    width: 105%;
+
+}
+#maintext li{
+    text-align: left;
+    color:rgb(43, 43, 43);
+    font-size: medium;
+}
+#header{
+    padding: 1%;
+    font-size: 300%;
+    z-index: 1;
+    background-color: rgb(136, 136, 136);
+    width: 98%;
+    text-align: center;
+}
+#header img{
+    width: 40%;
+    height: auto;
+}
+#footer{
+    float: left;
+    margin-left: 7.5%;
+    
+}
+#footer1{
+    float: left;
+    margin-left: 7.5%;
+}
+#footer2{
+    margin-top: -30%;
+    float: left;
+    margin-left: 15.5%;
+}
+#footer1 img{
+    margin-bottom: 5%;  
+    float: left;
+    height: auto;
+    width: 45%;
+    padding: 1%;
+}
+#footer img{
+    margin-top: 5%;
+    float: left;
+    height: 200px;
+    width: 420px;
+}
+#footer2 img{
+    margin-left: -1%;
+    padding: 1%;
+    margin-bottom: 5%;  
+    float: left;
+}
+#footer3{
+    margin-top: -44%;
+    float: right;
+    margin-left: 15.5%;
+}
+#footer3 img{   
+    margin-top: 10%;
+    margin-left: -1%; 
+    float: right;
+    width: 55%;
+}
+#footer4{
+    margin-top: -44%;
+    float: left;
+    margin-left: 1.5%;
+}
+#footer4 img{
+    margin-left: 10%;
+    padding-left: 1%;   
+    margin-top: 18%; 
+    float: left;
+    width: 38%;
+}
